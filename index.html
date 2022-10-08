@@ -35,7 +35,7 @@
         <p class="middle_right_text">Sign up for your first order!</p>
         <form action="#" method="post">
 
-            <!-- 1. Add more attributes to input elements -->
+            <!-- Pattern for password - minumum 8 characters, at least one letter and one number -->
 
             <ul>
                 <li>
@@ -56,11 +56,13 @@
                 </li>
                 <li>
                     <label for="">Password</label>
-                    <input type="password" id="password" name="user_password" required>
+                    <input type="password" id="password" name="user_password" min-length="8"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required>
                 </li>
                 <li>
                     <label for="">Confirm password</label>
-                    <input type="password" id="confirm_password" name="user_confirm_password" required>
+                    <input type="password" id="confirm_password" name="user_confirm_password" min-length="8"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required>
                 </li>
             </ul>
         </form>
