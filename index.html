@@ -57,12 +57,16 @@
                 <li>
                     <label for="">Password</label>
                     <input type="password" id="password" name="user_password" min-length="8"
-                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required>
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                        title="Enter 8 characters with at least one letter and one number" autocomplete="new-password"
+                        required>
                 </li>
                 <li>
-                    <label for="">Confirm password</label>
+                    <label for="">Conf20.3irm password</label>
                     <input type="password" id="confirm_password" name="user_confirm_password" min-length="8"
-                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required>
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                        title="Enter 8 characters with at least one letter and one number" autocomplete="new-password"
+                        required>
                 </li>
             </ul>
         </form>
