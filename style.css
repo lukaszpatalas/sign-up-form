@@ -38,6 +38,18 @@ body {
     position: relative;
 }
 
+.header {
+    position: absolute;
+    top: 20vh;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    text-align: center;
+}
+
 .aside_footer {
     position: absolute;
     bottom: 0px;
