@@ -25,3 +25,26 @@ body {
     display: flex;
     flex-direction: row;
 }
+
+.aside {
+    width: 35vw;
+}
+
+.main-section {
+    width: 65vw;
+}
+
+.aside {
+    background-color: red;
+    position: relative;
+}
+
+.aside_footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.bottom_left_text {
+    text-align: center;
+}
