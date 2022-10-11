@@ -26,13 +26,13 @@ body {
     flex-direction: column;
     align-items: center;
     padding-top: 15px;
-    background-color: #07394a;
+    background-color: #563836;
 }
 
 .main_container {
     display: flex;
-    width: 80vw;
-    height: 80vh;
+    width: 70vw;
+    min-height: 80vh;
     flex: 0 0 auto;
     overflow: hidden;
     border: 3px solid #0f111d;
@@ -40,7 +40,7 @@ body {
 }
 
 .aside {
-    width: 45%;
+    width: 50%;
     position: relative;
     background-image: url("background.gif");
     background-position: center;
@@ -50,7 +50,7 @@ body {
 .header {
     position: absolute;
     height: 100%;
-    top: 20vh;
+    top: 21.4vh;
     width: 100%;
     height: auto;
     background-color: rgba(216, 39, 25, 0.7);
@@ -89,8 +89,29 @@ a:visited {
 .main_section {
     display: flex;
     flex-direction: column;
-    width: 55%;
-    background-color: #3c0c22;
+    width: 50%;
+    background-color: #07193e;
+    border-left: 3px solid #0f111d;
+    font-size: 1.5rem;
+}
+
+.intro {
+    border: 1px solid #0f111d;
+    border-radius: 0 20px 0 0;
+    padding: 15px;
+    background-color: #07394a;
+}
+
+.the_form_itself {
+    padding: 15px;
+    background-color: rgba(216, 39, 25, 0.7);
+    border: 1px solid #0f111d;
+}
+
+.user_section {
+    padding: 15px;
+    border: 1px solid #0f111d;
+    height: 100%;
 }
 
 .footer {
