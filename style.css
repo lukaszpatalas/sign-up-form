@@ -5,6 +5,7 @@
 
 html {
     box-sizing: border-box;
+    color: #fdfcf4;
 }
 
 *,
@@ -24,7 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding-top: 15px;
     background-color: #07394a;
 }
 
@@ -34,19 +35,12 @@ body {
     height: 80vh;
     flex: 0 0 auto;
     overflow: hidden;
-    border: 2px solid #0f111d;
-    border-radius: 10px;
+    border: 3px solid #0f111d;
+    border-radius: 20px;
 }
 
 .aside {
     width: 45%;
-}
-
-.main_section {
-    width: 55%;
-}
-
-.aside {
     position: relative;
     background-image: url("background.gif");
     background-position: center;
@@ -95,19 +89,8 @@ a:visited {
 .main_section {
     display: flex;
     flex-direction: column;
-}
-
-.intro {
-    background-color: pink;
-}
-
-.the_form_itself {
-    background-color: yellow;
-}
-
-.user_section {
-    background-color: pink;
-    height: 100%;
+    width: 55%;
+    background-color: #3c0c22;
 }
 
 .footer {
