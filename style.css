@@ -139,8 +139,26 @@ input {
     display: block;
     font-family: inherit;
     font-size: 100%;
-    width: 60%;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 10px 10px 0 0;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
 }
