@@ -108,6 +108,11 @@ a:visited {
     border: 1px solid #0f111d;
 }
 
+form ul {
+    list-style: none;
+    padding-left: 0;
+}
+
 .user_section {
     padding: 15px;
     border: 1px solid #0f111d;
