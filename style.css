@@ -125,10 +125,6 @@ form ul {
     margin-top: auto;
 }
 
-.footer_text {
-    margin: 0;
-}
-
 .github-icon {
     transition: 0.5s;
 }
@@ -136,4 +132,10 @@ form ul {
 .github-icon:hover {
     transform: rotate(360deg) scale(1.25);
     transition: 0.5s;
+}
+
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
 }
