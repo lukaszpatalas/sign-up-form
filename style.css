@@ -138,4 +138,8 @@ button,
 input {
   font-family: inherit;
   font-size: 100%;
+  width: 60%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }

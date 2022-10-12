@@ -30,40 +30,42 @@
                 <p class="top_right_text">The taste of Crazy Noodles.</p>
             </div>
             <div class="the_form_itself">
-                <p class="middle_right_text">Sign up for your first order!</p>
                 <form action="#" method="post">
-                    <ul>
-                        <li>
-                            <label for="">First name</label>
-                            <input type="text" id="first_name" name="user_first_name" required>
-                        </li>
-                        <li>
-                            <label for="">Last name</label>
-                            <input type="text" id="last_name" name="user_last_name" required>
-                        </li>
-                        <li>
-                            <label for="">Email</label>
-                            <input type="email" id="email" name="user_email" required>
-                        </li>
-                        <li>
-                            <label for="">Phone number</label>
-                            <input type="tel" id="number" name="user_number" required>
-                        </li>
-                        <li>
-                            <label for="">Password</label>
-                            <input type="password" id="password" name="user_password" min-length="8"
-                                pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
-                                title="Enter 8 characters with at least one letter and one number"
-                                autocomplete="new-password" required>
-                        </li>
-                        <li>
-                            <label for="">Confirm password</label>
-                            <input type="password" id="confirm_password" name="user_confirm_password" min-length="8"
-                                pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
-                                title="Enter 8 characters with at least one letter and one number"
-                                autocomplete="new-password" required>
-                        </li>
-                    </ul>
+                    <fieldset>
+                        <legend>Sign up for your first order!</legend>
+                        <ul>
+                            <li>
+                                <label for="">First name</label>
+                                <input type="text" id="first_name" name="user_first_name" required>
+                            </li>
+                            <li>
+                                <label for="">Last name</label>
+                                <input type="text" id="last_name" name="user_last_name" required>
+                            </li>
+                            <li>
+                                <label for="">Email</label>
+                                <input type="email" id="email" name="user_email" required>
+                            </li>
+                            <li>
+                                <label for="">Phone number</label>
+                                <input type="tel" id="number" name="user_number" required>
+                            </li>
+                            <li>
+                                <label for="">Password</label>
+                                <input type="password" id="password" name="user_password" min-length="8"
+                                    pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                                    title="Enter 8 characters with at least one letter and one number"
+                                    autocomplete="new-password" required>
+                            </li>
+                            <li>
+                                <label for="">Confirm password</label>
+                                <input type="password" id="confirm_password" name="user_confirm_password" min-length="8"
+                                    pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                                    title="Enter 8 characters with at least one letter and one number"
+                                    autocomplete="new-password" required>
+                            </li>
+                        </ul>
+                    </fieldset>
                 </form>
             </div>
             <div class="user_section">
