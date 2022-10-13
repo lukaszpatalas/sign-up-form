@@ -181,6 +181,11 @@ input:focus {
     border: 2px solid #2474e4;
 }
 
+input:invalid {
+    outline: 1px solid #fdfcf4;
+    border: 2px solid #e1181f;
+}
+
 legend {
     font-size: 2rem;
     text-align: center;
