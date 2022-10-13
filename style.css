@@ -124,6 +124,7 @@ form ul {
     border: 1px solid #0f111d;
     height: 100%;
     align-items: center;
+    justify-content: center;
 }
 
 .footer {
@@ -200,4 +201,33 @@ label {
     width: 50%;
     padding: 7px;
     border-radius: 7px;
+    background-color: #fdfcf4;
+    font-size: 1.7rem;
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+    .main_container {
+        width: 80vw;
+    }
+}
+
+
+@media (min-width: 800px) and (max-width: 999px) {
+    .main_container {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 799px) {
+    .main_container {
+        flex-direction: column;
+        width: 90vw;
+    }
+    .aside {
+        width: 100%;
+        min-height: 70vh;
+    }
+    .main_section {
+        width: 100%;
+    }
 }
