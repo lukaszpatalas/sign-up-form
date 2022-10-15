@@ -240,20 +240,20 @@ label {
     color: #ffbc43;
 }
 
-@media (min-width: 1000px) and (max-width: 1300px) {
+@media (min-width: 1100px) and (max-width: 1300px) {
     .main_container {
         width: 80vw;
     }
 }
 
 
-@media (min-width: 850px) and (max-width: 999px) {
+@media (min-width: 950px) and (max-width: 1099px) {
     .main_container {
         width: 90vw;
     }
 }
 
-@media (max-width: 849px) {
+@media (max-width: 949px) {
     .main_container {
         flex-direction: column;
         width: 90vw;
