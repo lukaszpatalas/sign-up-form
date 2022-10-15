@@ -267,4 +267,8 @@ label {
     .main_section {
         width: 100%;
     }
+
+    .intro {
+        border-radius: 20px 0 0 0;
+    }
 }
