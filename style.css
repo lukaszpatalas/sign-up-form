@@ -207,6 +207,33 @@ label {
     border-radius: 7px;
     background-color: #fdfcf4;
     font-size: 1.7rem;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.create_button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.create_button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.create_button:hover span {
+    padding-right: 25px;
+}
+
+.create_button:hover span:after {
+    opacity: 1;
+    right: 0;
 }
 
 .footer_text a {
@@ -220,21 +247,23 @@ label {
 }
 
 
-@media (min-width: 800px) and (max-width: 999px) {
+@media (min-width: 850px) and (max-width: 999px) {
     .main_container {
         width: 90vw;
     }
 }
 
-@media (max-width: 799px) {
+@media (max-width: 849px) {
     .main_container {
         flex-direction: column;
         width: 90vw;
     }
+
     .aside {
         width: 100%;
         min-height: 70vh;
     }
+
     .main_section {
         width: 100%;
     }
