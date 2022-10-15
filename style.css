@@ -74,14 +74,14 @@ h1 {
     font-size: 1rem;
 }
 
-.bottom_left_text a:link,
+a:link,
 a:visited {
     color: rgb(216, 39, 25);
     text-decoration: none;
     font-weight: bold;
 }
 
-.bottom_left_text a:hover,
+a:hover,
 a:visited {
     text-decoration: underline;
 }
