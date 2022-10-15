@@ -74,6 +74,10 @@ h1 {
     font-size: 1rem;
 }
 
+.bottom_right_text {
+    font-size: 1.6rem;
+}
+
 a:link,
 a:visited {
     color: rgb(216, 39, 25);
@@ -203,6 +207,10 @@ label {
     border-radius: 7px;
     background-color: #fdfcf4;
     font-size: 1.7rem;
+}
+
+.footer_text a {
+    color: #ffbc43;
 }
 
 @media (min-width: 1000px) and (max-width: 1300px) {
